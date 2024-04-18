@@ -12,24 +12,27 @@
     <title>Order summary component</title>
 </head>
 <body>
-    <div class="card overflow-hidden position-absolute">
-        <img src="./imgs/illustration-hero.svg" class="card-img-top img-fluid">
-        <div class="card-body text-center">
-          <h3 class="card-title fw-bold mt-4 mb-2">Order Summary</h3>
+    <div class="card overflow-hidden position-absolute text-center">
+      <header>
+        <img src="./imgs/illustration-hero.svg" class="card-img-top img-fluid" alt="illustration-hero">
+      </header>
+        <main class="card-body">
+          <h1 class="card-title fw-bold mt-4 mb-2 fs-3">Order Summary</h1>
           <p class="card-text mb-4 m-auto">You can listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</p>
-            <div class="change mb-5 d-flex justify-content-center align-items-center flex-wrap gap-20">
+            <div class="change mb-5 d-flex justify-content-center align-items-center flex-wrap">
                         <img class="me-3" src="./imgs/icon-music.svg" alt="">
                         <div class="fw-bold">Annual Plan
                           <span class="price m-0 d-block">$59.99/year</span>
                         </div>
-
             <div>
                 <a class="ms-5 btn-change fw-bold border-0" href="#">change</a>
             </div>
             </div>
+          </main>
+        <footer class="mb-5">
           <a href="#" class="btn btn-primary">Proceed to Payment</a>
           <a class="mt-5 btn-2 d-block fw-bold text-decoration-none" href="">Cancel Order</a>
-        </div>
+        </footer>
       </div>   
 </div>
 <script src="./js/bootstrap.bundle.min.js"></script>   

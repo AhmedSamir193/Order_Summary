@@ -58,12 +58,12 @@ body {
     color: #382ae1;
 }
 
-.card .card-body .btn-change:hover {
+.card .btn-change:hover {
     text-decoration: none;
     color: rgba(57, 42, 225, 0.753)
 }
 
-.card .card-body .btn {
+.card .btn {
     background-color: #382ae1;
     width: calc(100% - 100px);
     padding: 11px;
@@ -72,22 +72,21 @@ body {
 }
 
 @media (max-width: 375px) {
-    .card .card-body .btn {
+    .card .btn {
         width: 100%;
     }
 }
 
-.card .card-body .btn:hover {
+.card .btn:hover {
     background-color: #392ae18e;
 
 }
 
-
-.card .card-body .btn-2 {
+.card footer .btn-2 {
     color: hsl(225deg 13.48% 64.68%);
 }
 
-.card .card-body .btn-2:hover {
+.card footer .btn-2:hover {
     color: #243055;
 }
 
